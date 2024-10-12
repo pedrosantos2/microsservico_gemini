@@ -1,0 +1,20 @@
+{
+  "name": "node_microservice",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Microsserviço para site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Pedro Santos",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  }
+}
